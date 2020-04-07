@@ -1,3 +1,5 @@
+package list;
+
 import org.junit.Test;
 
 /**
@@ -47,6 +49,15 @@ public class ReverseList {
         return pre;
     }
 
+    public ListNode reverseList2(ListNode head) {
+        if (head.next == null)
+            return null;
+        ListNode newHead = reverseList2(head.next);
+        head.next.next = head;
+        head.next = null;
+        return newHead;
+    }
+
     @Test
     public void testReverseLink() {
         ListNode head = new ListNode(1);
@@ -55,7 +66,7 @@ public class ReverseList {
         head.next.next.next = new ListNode(4);
         head.next.next.next.next = new ListNode(5);
         head.next.next.next.next.next = null;
-        System.out.println(reverseList(head));
+        System.out.println(reverseList2(head));
 
     }
 }

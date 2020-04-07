@@ -1,3 +1,12 @@
+package greedy;
+
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+import java.util.Arrays;
+
+import static org.junit.Assert.assertEquals;
+
 /**
  * @Author: MLY
  * @Description:
@@ -33,7 +42,26 @@
 //
 // Related Topics 贪心算法
 public class FindContentChildren {
-    private int findContentChildren(int[] g,int[] s){
-        
+    public int findContentChildren(int[] g, int[] s) {
+        Arrays.sort(g);
+        Arrays.sort(s);
+        int ret = 0;
+        for (int i = 0; i < g.length; i++) {
+            for (int j = 0; j < s.length; j++) {
+                if (g[i] <= s[j]) {
+                    ret++;
+                    s[j] = -1;
+                    break;
+                }
+            }
+        }
+        return ret;
+    }
+
+    @Test
+    public void testFindContentChildren(){
+        int[] g={1,2,3};
+        int[] s={1,1};
+        assertEquals(1,findContentChildren(g,s));
     }
 }
