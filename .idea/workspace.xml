@@ -6,24 +6,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d330af6-0e5f-4679-89f2-61606e41deed" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/list/ReverseBetween.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/list/ReverseKGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Leetcode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/recursion/Combine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/recursion/Fib.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/recursion/Hanota.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/recursion/InvertTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/recursion/Permutation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AddString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string/AddString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AddTwoNumers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/AddTwoNumers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CheckInclusion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string/CheckInclusion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FindContentChildren.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/greedy/FindContentChildren.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LengthOfLongestSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string/LengthOfLongestSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string/LongestCommonPrefix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LongestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string/LongestPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/ReverseList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SortList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/SortList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/list/ReverseKGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/ReverseKGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AddString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AddTwoNumers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CheckInclusion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LengthOfLongestSubstring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LongestCommonPrefix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LongestPalindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ReverseList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SortList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TwoSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utils.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,95 +51,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ReverseList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/list/ReverseList.java">
+      <file leaf-file-name="Combine.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/recursion/Combine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="51" column="49" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReverseBetween.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/list/ReverseBetween.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="[面试题24]反转链表.java" pinned="false" current-in-tab="false">
-        <entry file="file:///var/folders/2v/ksnxjvq90w334ybzlsvb3m280000gn/T/leetcode/editor/cn/[面试题24]反转链表.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="[25]K 个一组翻转链表.java" pinned="false" current-in-tab="false">
-        <entry file="file:///var/folders/2v/ksnxjvq90w334ybzlsvb3m280000gn/T/leetcode/editor/cn/[25]K 个一组翻转链表.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="24" column="20" lean-forward="true" selection-end-line="24" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReverseKGroup.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/list/ReverseKGroup.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="54" column="23" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TwoSum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/string/TwoSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Multiply.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Multiply.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" column="43" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
-              <folding>
-                <element signature="e#1918#1919#0" expanded="true" />
-                <element signature="e#1976#1977#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SortList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/list/SortList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1428">
-              <caret line="88" column="9" selection-start-line="84" selection-start-column="8" selection-end-line="88" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Utils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/list/Utils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LongestPalindrome.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/string/LongestPalindrome.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+            <state relative-caret-position="190">
+              <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -211,6 +128,12 @@
         <option value="$PROJECT_DIR$/src/main/java/list/ReverseBetween.java" />
         <option value="$PROJECT_DIR$/src/main/java/string/TwoSum.java" />
         <option value="$PROJECT_DIR$/src/main/java/list/ReverseKGroup.java" />
+        <option value="$PROJECT_DIR$/src/main/java/recursion/fib.java" />
+        <option value="$PROJECT_DIR$/src/main/java/recursion/Fib.java" />
+        <option value="$PROJECT_DIR$/src/main/java/recursion/InvertTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/recursion/Hanota.java" />
+        <option value="$PROJECT_DIR$/src/main/java/recursion/Permutation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/recursion/Combine.java" />
       </list>
     </option>
   </component>
@@ -227,7 +150,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="820" />
@@ -237,8 +160,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -270,37 +191,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="greedy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
-              <item name="ReverseList.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="string" type="462c0819:PsiDirectoryNode" />
+              <item name="recursion" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -310,12 +208,18 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -329,7 +233,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FindContentChildren.testFindContentChildren">
+  <component name="RunManager" selected="JUnit.Fib.testFib">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -353,6 +257,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="Fib.testFib" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="recursion" />
+      <option name="MAIN_CLASS_NAME" value="recursion.Fib" />
+      <option name="METHOD_NAME" value="testFib" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="FindContentChildren.testFindContentChildren" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <extension name="coverage">
@@ -366,23 +293,6 @@
       <option name="PACKAGE_NAME" value="greedy" />
       <option name="MAIN_CLASS_NAME" value="greedy.FindContentChildren" />
       <option name="METHOD_NAME" value="testFindContentChildren" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="Multiply.testMultiply" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode_maven" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Multiply" />
-      <option name="METHOD_NAME" value="testMultiply" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -479,19 +389,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.Multiply.testMultiply" />
       <item itemvalue="JUnit.ReverseWords.testReverseWords" />
       <item itemvalue="JUnit.AddTwoNumers.testAddTwoNumbers" />
       <item itemvalue="JUnit.ReverseList.testReverseLink" />
       <item itemvalue="JUnit.FindContentChildren.testFindContentChildren" />
+      <item itemvalue="JUnit.Fib.testFib" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Fib.testFib" />
         <item itemvalue="JUnit.FindContentChildren.testFindContentChildren" />
         <item itemvalue="JUnit.ReverseList.testReverseLink" />
         <item itemvalue="JUnit.AddTwoNumers.testAddTwoNumbers" />
         <item itemvalue="JUnit.ReverseWords.testReverseWords" />
-        <item itemvalue="JUnit.Multiply.testMultiply" />
       </list>
     </recent_temporary>
   </component>
@@ -512,47 +422,48 @@
       <workItem from="1582872876491" duration="71000" />
       <workItem from="1583130561172" duration="2573000" />
       <workItem from="1585554132338" duration="9329000" />
-      <workItem from="1586182715590" duration="3436000" />
+      <workItem from="1586182715590" duration="17378000" />
+      <workItem from="1587205164601" duration="6241000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReverseWords_testReverseWords - 2020.02.25 at 11h 25m 12s.xml">
-      <configuration name="ReverseWords.testReverseWords" configurationId="JUnit" />
+    <history-entry file="Fib_testFib - 2020.04.18 at 16h 32m 54s.xml">
+      <configuration name="Fib.testFib" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReverseWords_testReverseWords - 2020.02.25 at 11h 26m 08s.xml">
-      <configuration name="ReverseWords.testReverseWords" configurationId="JUnit" />
+    <history-entry file="Fib_testFib - 2020.04.18 at 16h 33m 01s.xml">
+      <configuration name="Fib.testFib" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReverseWords_testReverseWords - 2020.02.25 at 11h 26m 12s.xml">
-      <configuration name="ReverseWords.testReverseWords" configurationId="JUnit" />
+    <history-entry file="Fib_testFib - 2020.04.18 at 16h 33m 07s.xml">
+      <configuration name="Fib.testFib" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddTwoNumers_testAddTwoNumbers - 2020.02.26 at 14h 05m 13s.xml">
-      <configuration name="AddTwoNumers.testAddTwoNumbers" configurationId="JUnit" />
+    <history-entry file="Fib_testFib - 2020.04.18 at 16h 33m 26s.xml">
+      <configuration name="Fib.testFib" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddTwoNumers_testAddTwoNumbers - 2020.02.26 at 14h 05m 41s.xml">
-      <configuration name="AddTwoNumers.testAddTwoNumbers" configurationId="JUnit" />
+    <history-entry file="Fib_testFib - 2020.04.18 at 16h 34m 47s.xml">
+      <configuration name="Fib.testFib" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddTwoNumers_testAddTwoNumbers - 2020.02.26 at 14h 05m 53s.xml">
-      <configuration name="AddTwoNumers.testAddTwoNumbers" configurationId="JUnit" />
+    <history-entry file="Fib_testFib - 2020.04.18 at 16h 35m 15s.xml">
+      <configuration name="Fib.testFib" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReverseList_testReverseLink - 2020.02.26 at 22h 13m 26s.xml">
-      <configuration name="ReverseList.testReverseLink" configurationId="JUnit" />
+    <history-entry file="Fib_testFib - 2020.04.18 at 16h 35m 43s.xml">
+      <configuration name="Fib.testFib" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindContentChildren_testFindContentChildren - 2020.03.30 at 19h 59m 55s.xml">
-      <configuration name="FindContentChildren.testFindContentChildren" configurationId="JUnit" />
+    <history-entry file="Fib_testFib - 2020.04.18 at 16h 36m 06s.xml">
+      <configuration name="Fib.testFib" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindContentChildren_testFindContentChildren - 2020.03.30 at 20h 00m 20s.xml">
-      <configuration name="FindContentChildren.testFindContentChildren" configurationId="JUnit" />
+    <history-entry file="Fib_testFib - 2020.04.18 at 16h 38m 09s.xml">
+      <configuration name="Fib.testFib" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindContentChildren_testFindContentChildren - 2020.03.30 at 20h 00m 42s.xml">
-      <configuration name="FindContentChildren.testFindContentChildren" configurationId="JUnit" />
+    <history-entry file="Fib_testFib - 2020.04.18 at 16h 38m 22s.xml">
+      <configuration name="Fib.testFib" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81072000" />
+    <option name="totallyTimeSpent" value="101255000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="820" extended-state="1" />
+    <frame x="0" y="23" width="1440" height="820" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -565,18 +476,18 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="right" id="leetcode" order="3" side_tool="true" weight="0.2732475" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.395574" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" visible="true" weight="0.30013832" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37759337" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" visible="true" weight="0.3195021" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7450593" visible="true" weight="0.26824033" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7418699" visible="true" weight="0.27181688" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" sideWeight="0.25494072" side_tool="true" visible="true" weight="0.26824033" />
+      <window_info id="Structure" order="1" sideWeight="0.25813007" side_tool="true" visible="true" weight="0.27181688" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.46153846" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46058092" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32820514" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -595,7 +506,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="15" />
+      <option name="time" value="17" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -628,36 +539,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/string/LongestPalindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/Math.java" />
-    <entry file="file:///var/folders/54/f25yhkg562l4mq110mxsm5d40000gn/T/leetcode/editor/cn/[]最长回文子串.java" />
-    <entry file="file:///var/folders/54/f25yhkg562l4mq110mxsm5d40000gn/T/leetcode/editor/cn/[]两数之和.java" />
-    <entry file="file:///var/folders/54/f25yhkg562l4mq110mxsm5d40000gn/T/leetcode/editor/cn/[]反转链表.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/Arrays.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/Integer.java" />
-    <entry file="file:///var/folders/54/f25yhkg562l4mq110mxsm5d40000gn/T/leetcode/editor/cn/[]排序链表.java" />
-    <entry file="file:///var/folders/54/f25yhkg562l4mq110mxsm5d40000gn/T/leetcode/editor/cn/[]整数反转.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/ArrayList.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/sort/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/Collections.java" />
     <entry file="file:///var/folders/54/f25yhkg562l4mq110mxsm5d40000gn/T/leetcode/editor/cn/[]括号生成.java" />
     <entry file="file:///var/folders/54/f25yhkg562l4mq110mxsm5d40000gn/T/leetcode/editor/cn/[]无重复字符的最长子串.java" />
@@ -667,35 +548,10 @@
     <entry file="file:///var/folders/54/f25yhkg562l4mq110mxsm5d40000gn/T/leetcode/editor/cn/[415]字符串相加.java" />
     <entry file="file:///var/folders/54/f25yhkg562l4mq110mxsm5d40000gn/T/leetcode/editor/cn/[]字符串的排列.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/String.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ReverseWords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///var/folders/54/f25yhkg562l4mq110mxsm5d40000gn/T/leetcode/editor/cn/[]翻转字符串里的单词.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/SimplifyPath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///var/folders/54/f25yhkg562l4mq110mxsm5d40000gn/T/leetcode/editor/cn/[]复原IP地址.java" />
     <entry file="file:///var/folders/54/f25yhkg562l4mq110mxsm5d40000gn/T/leetcode/editor/cn/[]两数相加.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/List.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/NumsWays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="31" column="5" selection-end-line="38" />
-          <folding>
-            <element signature="e#673#674#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///var/folders/54/f25yhkg562l4mq110mxsm5d40000gn/T/leetcode/editor/cn/[]简化路径.java" />
     <entry file="file:///var/folders/54/f25yhkg562l4mq110mxsm5d40000gn/T/leetcode/editor/cn/[]环形链表 II.java" />
     <entry file="file:///var/folders/54/f25yhkg562l4mq110mxsm5d40000gn/T/leetcode/editor/cn/[455]分发饼干.java" />
@@ -703,20 +559,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ReverseInt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/list/AddTwoNumers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -731,13 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GenerateParenthesis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -766,20 +601,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="43" column="43" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
-          <folding>
-            <element signature="e#1918#1919#0" expanded="true" />
-            <element signature="e#1976#1977#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file:///var/folders/2v/ksnxjvq90w334ybzlsvb3m280000gn/T/leetcode/editor/cn/[206]反转链表.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///var/folders/2v/ksnxjvq90w334ybzlsvb3m280000gn/T/leetcode/editor/cn/[206]反转链表.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/list/SortList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1428">
@@ -804,13 +629,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///var/folders/2v/ksnxjvq90w334ybzlsvb3m280000gn/T/leetcode/editor/cn/[92]反转链表 II.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///var/folders/2v/ksnxjvq90w334ybzlsvb3m280000gn/T/leetcode/editor/cn/[92]反转链表 II.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/string/TwoSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -821,24 +640,167 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/list/ReverseBetween.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///var/folders/2v/ksnxjvq90w334ybzlsvb3m280000gn/T/leetcode/editor/cn/[面试题24]反转链表.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file:///var/folders/2v/ksnxjvq90w334ybzlsvb3m280000gn/T/leetcode/editor/cn/[25]K 个一组翻转链表.java">
+    <entry file="file:///var/folders/2v/ksnxjvq90w334ybzlsvb3m280000gn/T/leetcode/editor/cn/[25]K 个一组翻转链表.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/list/AddTwoNumers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="24" column="20" lean-forward="true" selection-end-line="24" selection-end-column="20" />
+        <state relative-caret-position="287">
+          <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/2v/ksnxjvq90w334ybzlsvb3m280000gn/T/leetcode/editor/cn/[509]斐波那契数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/2v/ksnxjvq90w334ybzlsvb3m280000gn/T/leetcode/editor/cn/[面试题10- I]斐波那契数列.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="32" column="20" lean-forward="true" selection-end-line="32" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="333" selection-start-line="333" selection-end-line="333" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ReverseWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SimplifyPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ReverseInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/recursion/InvertTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/2v/ksnxjvq90w334ybzlsvb3m280000gn/T/leetcode/editor/cn/[226]翻转二叉树.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/list/ReverseKGroup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="54" column="23" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="23" />
+        <state>
+          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/javax/swing/tree/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/recursion/Fib.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="56" column="34" lean-forward="true" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NumsWays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding>
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GenerateParenthesis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/recursion/Permutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#387#402#0" expanded="true" />
+            <element signature="e#451#460#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/2v/ksnxjvq90w334ybzlsvb3m280000gn/T/leetcode/editor/cn/[77]组合.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/recursion/Hanota.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="44" column="29" lean-forward="true" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
+          <folding>
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/2v/ksnxjvq90w334ybzlsvb3m280000gn/T/leetcode/editor/cn/[面试题 08.06]汉诺塔问题.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/2v/ksnxjvq90w334ybzlsvb3m280000gn/T/leetcode/editor/cn/[46]全排列.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/recursion/Combine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
         </state>
       </provider>
     </entry>

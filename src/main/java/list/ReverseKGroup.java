@@ -56,5 +56,6 @@ public class ReverseKGroup {
             }
             tmp=tmp.next;
         }
+        return head;
     }
 }
