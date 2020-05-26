@@ -32,14 +32,9 @@ public class CoinChange {
     public void coinChange(int[] coins, int amount) {
         solution1(coins, amount);
         solution2(coins,amount);
-        solution3(coins,amount);
+//        solution3(coins,amount);
     }
 
-    private int solution3(int[] coins, int amount) {
-
-
-
-    }
 
     private int solution2(int[] coins, int amount) {
         if (amount == 0) {
