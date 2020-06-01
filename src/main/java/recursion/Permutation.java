@@ -18,9 +18,8 @@ import java.util.List;
 //  [3,1,2],
 //  [3,2,1]
 //]
-// Related Topics 回溯算法
 public class Permutation {
-    //从第K位开始的全排列
+    //递归解法,从第k位开始的全排列
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> ret = new ArrayList<List<Integer>>();
         List<Integer> nums_list = new ArrayList<Integer>();
@@ -41,6 +40,5 @@ public class Permutation {
             Collections.swap(nums_list, k, i);
         }
     }
-
 
 }
