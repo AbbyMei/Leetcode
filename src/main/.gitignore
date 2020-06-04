@@ -8,6 +8,16 @@
 
 # BlueJ files
 *.ctxt
+# IntelliJ
+*.iml
+.idea/
+
+# Maven
+target/
+
+# Mac
+.DS_Store
+
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/

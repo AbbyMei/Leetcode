@@ -22,10 +22,6 @@ package tree;
 // Related Topics 栈 树 广度优先搜索
 
 public class ZigZagLeverOrder {
-    class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        public TreeNode(int x) { val = x; }
-    }
+
+
 }
