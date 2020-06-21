@@ -21,22 +21,23 @@ import org.junit.Test;
 // Related Topics 字符串
 public class AddString {
     public String addStrings(String num1, String num2) {
-        StringBuilder ret=new StringBuilder("");
-        int i=num1.length()-1,j=num2.length()-1,carry=0;
-        while (i>=0||j>=0){
-            int n1=i>=0?num1.charAt(i)-'0':0;
-            int n2=j>=0?num2.charAt(j)-'0':0;
-            int tmp=n1+n2+carry;
-            carry=tmp/10;
-            ret.append(tmp%10);
-            i--;j--;
+        StringBuilder ret = new StringBuilder("");
+        int i = num1.length() - 1, j = num2.length() - 1, carry = 0;
+        while (i >= 0 || j >= 0) {
+            int n1 = i >= 0 ? num1.charAt(i) - '0' : 0;
+            int n2 = j >= 0 ? num2.charAt(j) - '0' : 0;
+            int tmp = n1 + n2 + carry;
+            carry = tmp / 10;
+            ret.append(tmp % 10);
+            i--;
+            j--;
         }
-        if(carry == 1) ret.append(1);
+        if (carry == 1) ret.append(1);
         return ret.reverse().toString();
     }
 
     @Test
-    public void testAddString(){
-        System.out.println(addStrings("347","658"));
+    public void testAddString() {
+        System.out.println(addStrings("347", "658"));
     }
 }

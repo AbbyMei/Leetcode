@@ -11,48 +11,41 @@ import java.util.Arrays;
  * @Modified By:
  */
 public class MergeSort {
-    
-    public static void mergeSort(int[] array, int startIndex, int endIndex){
-        int mid = (startIndex + endIndex)/2;
+
+    public static void mergeSort(int[] arr) {
+        if(arr == null || arr.length < 2){
+            return;
+        }
+        mergeSort(arr,0,arr.length - 1);
+    }
+
+    public static void mergeSort(int[] arr, int startIndex, int endIndex) {
         if(startIndex == endIndex){
             return;
         }
-        mergeSort(array,startIndex,mid);
-        mergeSort(array,mid+1,endIndex);
-        merge(array,startIndex,mid,mid+1,endIndex);
+        int mid = startIndex + ((endIndex - startIndex) >> 1);
+        mergeSort(arr,startIndex,mid);
+        mergeSort(arr,mid+1,endIndex);
+        merge(arr,startIndex,mid,endIndex);
     }
 
-    private static void merge(int[] array, int startIndex1, int endIndex1,int startIndex2, int endIndex2) {
-        int length = endIndex2-startIndex1+1;
-        int[] tempArray = new int[length];
-        int l1 = startIndex1;
-        int l2 = startIndex2;
-        int i = 0;
-        while (l1 <= endIndex1  && l2 <= endIndex2){
-            if(array[l1] < array[l2]){
-                tempArray[i] = array[l1];
-                i++;
-                l1++;
-            }else{
-                tempArray[i] = array[l2];
-                i++;
-                l2++;
-            }
+    //外排
+    public static void merge(int[] arr, int l, int m, int r) {
+        int[] tmp = new int[r-l+1];
+        int left = l;
+        int right = m+1;
+        int tmpIndex = 0;
+        while(left <= m && right <= r){
+            tmp[tmpIndex++] = arr[left] < arr[right]?arr[left++]:arr[right++];
         }
-        while (l1 <= endIndex1){
-            tempArray[i] = array[l1];
-            i++;
-            l1++;
+        while(left <= m){
+            tmp[tmpIndex++] = arr[left];
         }
-
-        while (l2 <= endIndex2){
-            tempArray[i] = array[l2];
-            i++;
-            l2++;
+        while (right <= r){
+            tmp[tmpIndex] = arr[right++];
         }
-
-        for(int j = 0; j < tempArray.length; j++){
-            array[j+startIndex1] = tempArray[j];
+        for (int i = 0; i < tmp.length; i++) {
+            arr[l + i] = tmp[i];
         }
     }
 
@@ -60,7 +53,7 @@ public class MergeSort {
     @Test
     public void testMergeSort(){
         int a[] = {2,4,5,1,9,7,11,8,0};
-        mergeSort(a, 0, a.length - 1);
+        mergeSort(a);
         System.out.println("排序结果：" + Arrays.toString(a));
     }
 
