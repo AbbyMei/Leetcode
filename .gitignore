@@ -35,3 +35,5 @@ target/
 hs_err_pid*
 
 /.idea/
+/leetcode.iml
+/.idea/workspace.xml

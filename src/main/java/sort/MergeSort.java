@@ -39,10 +39,10 @@ public class MergeSort {
             tmp[tmpIndex++] = arr[left] < arr[right]?arr[left++]:arr[right++];
         }
         while(left <= m){
-            tmp[tmpIndex++] = arr[left];
+            tmp[tmpIndex++] = arr[left++];
         }
         while (right <= r){
-            tmp[tmpIndex] = arr[right++];
+            tmp[tmpIndex++] = arr[right++];
         }
         for (int i = 0; i < tmp.length; i++) {
             arr[l + i] = tmp[i];
