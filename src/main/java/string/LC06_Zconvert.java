@@ -35,7 +35,7 @@ package string;
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Zconvert {
+class LC06_Zconvert {
 
     public String convert(String s, int numRows) {
         if (numRows <= 1 || s.length() == 0) {

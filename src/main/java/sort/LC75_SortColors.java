@@ -19,7 +19,7 @@ package sort;
 
 * */
 
-public class SortColors {
+public class LC75_SortColors {
     public void sortColors(int[] nums) {
         if(nums == null || nums.length < 2){
             return;
@@ -42,7 +42,7 @@ public class SortColors {
         }
     }
 
-    public static void swap(int[] arr, int i,int j){
+    private static void swap(int[] arr, int i,int j){
         int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;

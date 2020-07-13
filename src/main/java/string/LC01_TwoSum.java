@@ -25,7 +25,7 @@ import java.util.Set;
 //所以返回 [0, 1]
 //
 // Related Topics 数组 哈希表
-public class TwoSum {
+public class LC01_TwoSum {
 
     public int[] twoSum(int[] nums, int target) {
         /*return solution1(nums,target);*/
