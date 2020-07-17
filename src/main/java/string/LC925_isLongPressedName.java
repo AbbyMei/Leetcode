@@ -25,7 +25,6 @@ package string;
  * typed.length <= 1000
  * name 和 typed 的字符都是小写字母。
  */
-/
 
 /**
  * @Author: MLY
@@ -33,6 +32,6 @@ package string;
  * @Date: Created in 23:18 2020/7/12
  * @Modified By:
  */
-public class LC925_isLongPressedName {
-
-}
+//public class LC925_isLongPressedName {
+//
+//}
