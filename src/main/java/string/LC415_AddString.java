@@ -19,7 +19,7 @@ import org.junit.Test;
 // 你不能使用任何內建 BigInteger 库， 也不能直接将输入的字符串转换为整数形式。
 //
 // Related Topics 字符串
-public class AddString {
+public class LC415_AddString {
     public String addStrings(String num1, String num2) {
         StringBuilder ret = new StringBuilder("");
         int i = num1.length() - 1, j = num2.length() - 1, carry = 0;
