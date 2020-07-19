@@ -26,12 +26,46 @@ package string;
  * name 和 typed 的字符都是小写字母。
  */
 
+import org.junit.Test;
+
 /**
  * @Author: MLY
  * @Description:
  * @Date: Created in 23:18 2020/7/12
  * @Modified By:
  */
-//public class LC925_isLongPressedName {
-//
-//}
+public class LC925_isLongPressedName {
+    public boolean isLongPressedName(String name, String typed){
+        if(name.equals(typed)){
+            return true;
+        }
+        int i = 0;
+        int j = 0;
+        int nameLen = name.length();
+        int typedLen = typed.length();
+        while(i < nameLen && j < typedLen){
+            if(name.charAt(i) == typed.charAt(j)){
+                i++;
+                j++;
+            }else if(typed.charAt(j) == typed.charAt(j-1) && j > 0) {
+                j++;
+            }else{
+                return false;
+            }
+        }
+        // "alex""alexxr"
+        while(j < typedLen){
+            if(j > 0 && typed.charAt(j) == typed.charAt(j-1) ) {
+                j++;
+            }else{
+                return false;
+            }
+        }
+        return i == nameLen;
+    }
+
+    @Test
+    public void testIsLongPressedName(){
+        System.out.println(isLongPressedName("saeed","ssaaedd"));
+    }
+}
