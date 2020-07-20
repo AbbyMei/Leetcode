@@ -32,6 +32,9 @@ import org.junit.Test;
  * 你可以用 O(N) 的时间复杂度和 O(1) 的空间复杂度解决该问题吗？
  * */
 public class LC844_BackspaceCompare {
+    //使用栈
+    //反向遍历
+    //我这种方法真笨，唉，凑合着过吧
     public boolean backspaceCompare(String S, String T){
         String afterS = afterBackSpace(S);
         String afterT = afterBackSpace(T);
