@@ -1,5 +1,9 @@
 package string;
 
+import org.junit.Test;
+
+import java.util.Stack;
+
 /**
  * 给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串，判断字符串是否有效。
  * 有效字符串需满足：
@@ -25,6 +29,28 @@ package string;
  * */
 public class LC20_isValid {
     public boolean isValid(String s){
+        Stack<Character> stack = new Stack<>();
+        if(s == null || s.length() == 0){
+            return true;
+        }
+        for(char c : s.toCharArray()){
+            if(stack.empty()){
+                stack.add(c);
+            }else if((c == ')' && stack.peek() == '(') || (c == '}' && stack.peek() == '{') || (c == ']' && stack.peek() == '[')){
+                stack.pop();
+            }else{
+                stack.add(c);
+            }
+        }
+        if(stack.empty()){
+            return true;
+        }else{
+            return false;
+        }
+    }
 
+    @Test
+    public void testIsValid(){
+        System.out.println(isValid("([)"));
     }
 }
